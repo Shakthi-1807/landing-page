@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Watches - The Time of Your Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo"><a href="#">Titan<span>Watches</span></a></div>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero__content">
+            <h1>Discover the <span>Timeless Elegance</span> of Titan Watches</h1>
+            <p>Where sophistication meets precision. Experience luxury like never before.</p>
+            <button onclick="window.location.href='#featured'">Explore Collection</button>
+        </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="featured-products">
+        <h2>Featured Watches</h2>
+        <div class="products__grid">
+            <div class="product">
+                <img src="watch.png" alt="Classic Titan Watch">
+                <h3>Classic Titan</h3>
+                <p>Elegant design for the refined individual.</p>
+            </div>
+            <div class="product">
+                <img src="watch1.png" alt="Modern Titan Watch">
+                <h3>Modern Titan</h3>
+                <p>Sleek and stylish for the contemporary look.</p>
+            </div>
+            <div class="product">
+                <img src="watch2.png" alt="Sport Titan Watch">
+                <h3>Sport Titan</h3>
+                <p>Durable and precise for the active lifestyle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <h2>About Titan Watches</h2>
+        <p>Titan Watches are crafted with the highest standards of precision and design. Our commitment is to provide elegant timepieces that stand the test of time. With a rich history and unparalleled craftsmanship, each Titan Watch is a statement of elegance and style.</p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Titan Watches. All rights reserved.</p>
+    </footer>
+</body>
+</html>
